@@ -1,13 +1,70 @@
+body {
+    font: 1rem Verdana;
+    background-color: hsla(100, 75%, 80%, 0.5);
+    height: 5vh;
+    width: 50vw;
 
-    body {
-        font: 1rem Verdana;
-        background-color:hsla(100,75%,80%,0.5);
-        height: 5vh;
-        width: 50vw;
-        
-    }
-    h2 {
-        color: #000000;
-        font-size: 200%;
-    }
+}
+
+h2 {
+    color: #000000;
+    font-size: 200%;
+}
+
+li {
+    list-style-type: square;
+    line-height: 2em;
+    color: rgba(100, 100, 100, 1.0)
+}
+
+body {
+    width: 90%;
+    max-width: 7000px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font: 1rem Verdana;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(0, 100%, 50%);
+}
+
+main {
+    width: 67%;
+    padding: 0px;
+    background-color: hsl(240, 100%, 50%);
+}
+
+aside {
+    padding-left: 0px;
+    width: 33%;
+    float: right;
+    background-color: hsl(147, 50%, 47%);
+}
+footer{
+background-color: hsl(39, 100%, 50%);
+}
+
+.structural {
+    padding: 5px;
+    margin: auto;
+    border: none;
+}
+
+#one {
+    color: rgb(0, 0, 0);
+}
+
+#two {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    background-color: yellow;
+  }
+  footer p{
+    font-size: 10px;
+  }
+
 /* Nikolai Magiev 8814 */
