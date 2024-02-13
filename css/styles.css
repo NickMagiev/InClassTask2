@@ -32,19 +32,22 @@ header {
 }
 
 main {
+    float:left;
     width: 67%;
     padding: 0px;
     background-color: hsl(240, 100%, 50%);
 }
 
 aside {
+
     padding-left: 0px;
-    width: 33%;
+    width: 30%;
     float: right;
     background-color: hsl(147, 50%, 47%);
 }
 footer{
 background-color: hsl(39, 100%, 50%);
+clear:both;
 }
 
 .structural {
